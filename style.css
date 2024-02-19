@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to bottom, #b9c69b 5%, #f5f4ef 48%, #dccac0 100%);
+}
+h1,
+h2,
+p,
+.message,
+button {
+  color: #333135;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  font-size: 34px;
+  line-height: 50px;
+  margin: 5px 10px 5px;
+  padding: 10px 15px 10px 15px;
+  background: #aec88a;
+}
+h2 {
+  font-size: 25px;
+  font-weight: lighter;
+  background: #d9e9c4;
+  margin: 5px 10px 5px;
+  padding: 5px 10px 5px 10px;
+}
+p {
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 15px 10px 15px 10px;
+}
+.question {
+  font-size: 20px;
+  color: hsl(87, 21%, 49%);
+}
+.message {
+  font-size: 20px;
+}
+img {
+  width: 350 px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25% 15% 25% 15%;
+}
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  color: hsl(86, 27%, 45%);
+}
+button {
+  background-color: #e4c3b1;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid rgb(223, 188, 170);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: rgb(232, 226, 223);
+  line-height: 25px;
+  padding: 14px 20px;
+  font-size: 15px;
+}
+button:hover {
+  color: #aec88a;
+  background: rgb(251, 251, 251);
+  border: 2px solid #aec88a;
+}
